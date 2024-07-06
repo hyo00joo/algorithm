@@ -11,11 +11,8 @@ using namespace std;
 
 int main() {
     int n;
-    int t = 0;
     cin >> n;
     int d[10] = {0,};
-    int m = n;
-    int s;
     int max = 0;
     while(n>0) {
         d[n%10]++;
