@@ -18,15 +18,10 @@ int main() {
     int s;
     int max = 0;
     while(n>0) {
+        d[n%10]++;
         n = n/10;
-        t++;
     }
     
-    for(int i = 0; i < t; i++) {
-        s = m % 10;
-        d[s]++;
-        m = m / 10;
-    }
     d[6] = d[6] + d[9];
     d[6] = (d[6]+1)/2;
     d[9] = d[6];
@@ -38,6 +33,3 @@ int main() {
     }
     cout << max;
     }
-    
- 
-
