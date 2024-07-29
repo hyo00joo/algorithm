@@ -3,10 +3,11 @@
 
 using namespace std;
 
-int arr[1000000];
+
 int main() {
     int n;
     cin >> n;
+    int arr[n];
     
 
     for(int i = 0; i < n; i++) {
