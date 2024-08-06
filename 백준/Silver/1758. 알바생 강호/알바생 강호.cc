@@ -30,9 +30,9 @@ int main()
     for (int i = 0; i < n; i++) {
 
         if( arr[i]-i>0 )
-        sum += arr[i]-i;
+        //sum += arr[i]-i;
 
-        //sum += (arr[i]-i > 0 ? arr[i]-i : 0) ;
+        sum += (arr[i]-i > 0 ? arr[i]-i : 0) ;
     }
 
     cout << sum;
